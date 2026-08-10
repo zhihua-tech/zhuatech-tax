@@ -53,3 +53,7 @@ npm run dev:demo
 | ![微信二维码 1](docs/images/zhuatech-wechat-consulting.png) | ![微信二维码 2](docs/images/zhuatech-wechat-consulting-2.png) |
 
 SEO：企业税务管理系统源码、税务申报管理、税务风险管理、Java TAX、Vue 税务系统、知华科技。
+
+## 税务申报准备度
+
+新增 `POST /api/tax/insights/filing-readiness`，检查台账核对、发票匹配、申报附表、未决风险、截止时间和缴税资金，输出 `READY`、`REMEDIATE` 或 `BLOCK`。
