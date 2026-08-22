@@ -1,3 +1,3 @@
-/* Copyright 2026 Shanghai Rujing Zhihua Information Technology Co., Ltd. */
+/* Copyright 2026 Shanghai Rujing Zhihua Information Technology Co., Ltd. · https://www.zhuatech.cn/ */
 package cn.zhuatech.tax.controller; import cn.zhuatech.tax.common.ApiResponse; import cn.zhuatech.tax.dto.TaxDto.*; import cn.zhuatech.tax.service.TaxService; import org.springframework.security.access.prepost.PreAuthorize; import org.springframework.web.bind.annotation.*; import java.util.List;
 @RestController @RequestMapping("/api/admin") @PreAuthorize("hasAnyRole('TAX_MANAGER','QUALITY','ADMIN')") public class TaxAdminController {private final TaxService service;public TaxAdminController(TaxService service){this.service=service;}@GetMapping("/dashboard") public ApiResponse<Dashboard> dashboard(){return ApiResponse.ok(service.adminDashboard());}@GetMapping("/work-orders") public ApiResponse<List<TaxFilingView>> orders(){return ApiResponse.ok(service.taxFilings());}}

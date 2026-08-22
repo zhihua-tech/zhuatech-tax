@@ -1,4 +1,4 @@
-/* Copyright 2026 Shanghai Rujing Zhihua Information Technology Co., Ltd. */
+/* Copyright 2026 Shanghai Rujing Zhihua Information Technology Co., Ltd. · https://www.zhuatech.cn/ */
 package cn.zhuatech.tax.dto;
 import cn.zhuatech.tax.model.UserAccount; import jakarta.validation.constraints.NotBlank;
 public final class AuthDto {

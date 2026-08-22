@@ -1,4 +1,4 @@
-/* Copyright 2026 Shanghai Rujing Zhihua Information Technology Co., Ltd. */
+/* Copyright 2026 Shanghai Rujing Zhihua Information Technology Co., Ltd. · https://www.zhuatech.cn/ */
 package cn.zhuatech.tax.service;
 import cn.zhuatech.tax.common.BusinessException; import cn.zhuatech.tax.dto.TaxDto.*; import cn.zhuatech.tax.model.*; import cn.zhuatech.tax.repository.*; import org.springframework.stereotype.Service; import org.springframework.transaction.annotation.Transactional; import java.util.*;
 @Service @Transactional(readOnly=true) public class TaxService {

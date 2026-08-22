@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 export const domain={
  code:'TAX',systemName:'企业税务管理系统',englishName:'ENTERPRISE TAX MANAGEMENT',
  theme:{primary:'#315f91',dark:'#1d3855',accent:'#bb6b4a'},
