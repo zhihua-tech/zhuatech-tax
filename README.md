@@ -57,3 +57,7 @@ SEO：企业税务管理系统源码、税务申报管理、税务风险管理�
 ## 税务申报准备度
 
 新增 `POST /api/tax/insights/filing-readiness`，检查台账核对、发票匹配、申报附表、未决风险、截止时间和缴税资金，输出 `READY`、`REMEDIATE` 或 `BLOCK`。
+
+## 企业级税务申报发布
+
+新增 `POST /api/enterprise/tax/filing-release`，覆盖关账、台账、发票、关联交易、审批、资金、电子签章及逾期例外，返回 `FILE / REVIEW / BLOCKED`。详见 [申报发布说明](docs/ENTERPRISE_FILING_RELEASE.md)。
