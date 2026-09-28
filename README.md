@@ -1,5 +1,7 @@
 # ZhuaTech TAX｜企业税务管理系统
 
+[简体中文](README.md) | [English](README.en.md)
+
 [![Community Source](https://img.shields.io/badge/edition-community_source-315f91)](LICENSE) [![Spring Boot](https://img.shields.io/badge/Spring_Boot-Java_21-6db33f)](backend/) [![Vue 3](https://img.shields.io/badge/Vue-3-42b883)](frontend/) [![Official](https://img.shields.io/badge/官网-zhuatech.cn-bb6b4a)](https://www.zhuatech.cn/)
 
 ZhuaTech TAX 将多主体、税种申报、底稿、规则校验、税务风险和台账记录集中到一个工作空间。项目由知华科技（上海如静知华信息科技有限公司）维护，官网：[https://www.zhuatech.cn/](https://www.zhuatech.cn/)。
